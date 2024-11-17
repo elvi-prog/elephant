@@ -1,8 +1,12 @@
-*{
+body,html{
+    width: 100%;
+}
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     position: sticky;
     background-color: white;
     top: 0;
@@ -14,24 +18,29 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.logo span{color: red;
+
+.logo span {
+    color: red;
 
 }
- .navigation {
+
+.navigation {
     font-size: 15px;
     color: black;
     text-decoration: none;
     margin-right: 40px;
-    
- }
- 
- 
- .navigation :hover{
+    justify-content: space-between;
+
+}
+
+
+.navigation :hover {
     color: blue;
     background-color: orange;
     font-size: 35px;
- }
- .twogele{
+}
+
+.twogele {
     text-decoration: none;
     color: white;
     background-color: blue;
@@ -39,42 +48,44 @@ header{
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 8px;
-border-radius: 10px;
-border-color: blue;
-border-width: 5px;
-border-style: double;
+    border-radius: 10px;
+    border-color: blue;
+    border-width: 5px;
+    border-style: double;
 }
-.twogele:hover{
+
+.twogele:hover {
     background-color: white;
     color: blue;
-    
+
 }
-.maincontent{
-    position: relative;
+
+.maincontent {
+    position: fixed;
     width: 100%;
-    max-width: ;
-    max-width: 500px;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding-top: 30px 100px;
-    
+    justify-content: space-around;
 }
-.maincontent h2{
+
+.maincontent h2 {
     font-size: 40px
 }
-.maincontent h2 span{
+
+.maincontent h2 span {
     color: blue;
     margin-left: 10px;
 }
-.maincontent h4{
+
+.maincontent h4 {
     font-size: 25px;
 }
-.maincontent p{
+
+.maincontent p {
     padding: 10px 0 40px 0;
 }
-.button-group a{
+
+.button-group a {
     color: blue;
     text-align: none;
     padding: 10px 40px;
@@ -83,22 +94,37 @@ border-style: double;
     border-radius: 10px;
     text-decoration: none;
 }
-.button-group .blue-button{
+
+.button-group .blue-button {
     background-color: blue;
-    color:white ;
+    color: white;
 }
-.button-group .blue-button:hover{
+
+.button-group .blue-button:hover {
     background-color: white;
-    color:blue ;
+    color: blue;
 }
-.button-group .white-button{
+
+.button-group .white-button {
     background: white;
     color: blue;
     margin-left: 30px;
 }
-.white-button:hover{
+
+.white-button:hover {
     background: blue;
-    color:white;
-   
+    color: white;
+
 }
-    
+
+.profile-info{
+    max-width: 100%;
+}
+.profile image{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: top;
+    border-radius: 50%;
+
+}
